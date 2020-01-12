@@ -19,3 +19,4 @@ Route::get('show_student_details', "StudentController@read");
 Route::get('delete/{id}', "StudentController@delete_info");
 Route::get('edit/{id}', "StudentController@edit_info");
 Route::post('/update_user/{id}', 'StudentController@update');
+Route::post('/update_user/{id}', 'StudentController@update');
